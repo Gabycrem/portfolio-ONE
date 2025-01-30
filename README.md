@@ -23,10 +23,11 @@ Se planean mejoras y posibles agregados de funcionalidades dinámicas.
 📁 proyecto
 │── 📄 index.html
 │── 📄 about.html
+|── 📄 README.md
 │── 📁 assets
 │   ├── 📁 css
 │   │   ├── 📄 styles.css
-│   ├── 📁 images
+│   ├── 📁 img
 ```
 
 ## 📌 Instalación y uso
