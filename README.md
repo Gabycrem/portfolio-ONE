@@ -1,9 +1,9 @@
 # Proyecto: Página Web de Práctica
 
-Este es un proyecto en desarrollo como parte del curso de Alura Latam, orientado a practicar HTML y CSS para armar una página web estática.
+Este es un proyecto en desarrollo como parte del curso de Alura Latam, orientado a practicar HTML y CSS para armar una página web estática. Este sitio web es un ejemplo de portfolio, donde se muestran las habilidades en desarrollo web a través de una estructura básica.
 
 ## 📌 Descripción
-Este sitio web tiene dos páginas principales:
+Este sitio web tiene, por el momento, dos páginas:
 - **Página de inicio**: Incluye enlaces a redes sociales.
 - **Página "Sobre mí"**: Una breve presentación del desarrollador.
 
