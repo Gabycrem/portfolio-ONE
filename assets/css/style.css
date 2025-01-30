@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-primario: #212121;
+    /* #000000 */
+    --color-secundario: #FBF5E5;
+    /*#F6F6F6*/
+    --color-terciario: #A35C7A;
+    /*#22D4FD*/
+    --fuente-montserrat: 'Montserrat', serif;
+    --fuente-krona: "Krona One", serif;
+    --font-weight-semi-bold: 600;
+    --font-weight-regular: 400;
+    --font-size-medium: 24px;
+    --font-size-large: 36px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--color-secundario);
+    background-color: var(--color-primario);
+}
+
+.header {
+    padding: 2% 0 0 15%;
+}
+
+.header__nav {
+    display: flex;
+    gap: 80px;
+}
+
+.header__nav__link {
+    font-family: var(--fuente-montserrat);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-semi-bold);
+    color: var(--color-terciario);
+    text-decoration: none;
+
+}
+
+.main {
+    display: flex;
+    align-self: center;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 5% 15%;
+
+}
+
+.main__contenido {
+    width: 593px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.main__contenido__titulo {
+    font-size: var(--font-size-large);
+    font-family: var(--fuente-krona);
+}
+
+.titulo-resaltado {
+    color: var(--color-terciario);
+}
+
+.main__contenido__texto {
+    font-size: 24px;
+    font-family: var(--fuente-montserrat);
+}
+
+.main__contenido__texto-nombre:hover {
+    font-size: 28px;
+    font-weight: var(--font-weight-semi-bold);
+    cursor: context-menu;
+}
+
+.main__enlaces {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.main__enlaces__subtitulo {
+    font-family: var(--fuente-krona);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
+}
+
+.main__enlaces__link {
+    width: 378px;
+    text-align: center;
+    padding: 16px 0px;
+    font-weight: var(--font-weight-semi-bold);
+    font-size: var(--font-size-medium);
+    font-family: var(--fuente-montserrat);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--color-secundario);
+    border: 2px solid var(--color-terciario);
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    /*Ampliando el archivo figma se puede ver bien que la separación es de 16px y no de 10px como indica la profesora en el video*/
+}
+
+.main__enlaces__link:hover,
+.main__enlaces__link:hover img {
+    background-color: #C890A7;
+    /* #272727;*/
+    border-color: #A35C7A
+        /* #0000FF; */
+}
+
+.main__img {
+    width: 467px;
+    height: 532px;
+}
+
+.footer {
+    background-color: var(--color-terciario);
+    padding: 24px;
+    color: var(--color-primario);
+    text-align: center;
+    font-family: var(--fuente-montserrat);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
+}
