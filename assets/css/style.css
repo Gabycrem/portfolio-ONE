@@ -112,6 +112,8 @@ body {
     /*Ampliando el archivo figma se puede ver bien que la separación es de 16px y no de 10px como indica la profesora en el video*/
 }
 
+
+
 .main__enlaces__link:hover,
 .main__enlaces__link:hover img {
     background-color: #C890A7;
