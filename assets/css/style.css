@@ -142,7 +142,7 @@ body {
 
 /* -----------  RESPONSIVE ------------------ */
 
-@media (width <= 1200px){
+
     .header{
         padding: 6%;
     }
